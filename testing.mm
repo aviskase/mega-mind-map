@@ -518,6 +518,10 @@
 </node>
 </node>
 </node>
+<node TEXT="Sources" FOLDED="true" ID="ID_1662484952" CREATED="1516127165650" MODIFIED="1516127168328">
+<node TEXT="How Google Tests Software" ID="ID_1629731089" CREATED="1516127280570" MODIFIED="1516127342256" LINK="https://www.amazon.ca/Google-Tests-Software-James-Whittaker/dp/0321803027"/>
+<node TEXT="Google Test Analytics" ID="ID_225820214" CREATED="1516127171399" MODIFIED="1516127225109" LINK="https://testing.googleblog.com/2011/10/google-test-analytics-now-in-open.html"/>
+</node>
 </node>
 </node>
 </map>
