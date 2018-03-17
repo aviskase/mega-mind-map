@@ -1050,5 +1050,146 @@
 </node>
 </node>
 </node>
+<node TEXT="Hybrid testing" POSITION="right" ID="ID_453416547" CREATED="1521245881341" MODIFIED="1521245929145">
+<node TEXT="combination of" ID="ID_747189588" CREATED="1521245930780" MODIFIED="1521245967593">
+<node TEXT="scenario-based" ID="ID_325054927" CREATED="1521245937380" MODIFIED="1521245962724"/>
+<node TEXT="exploratory-based" ID="ID_273157530" CREATED="1521245943780" MODIFIED="1521245959940"/>
+</node>
+<node TEXT="how" ID="ID_1084022479" CREATED="1521245968063" MODIFIED="1521245981315">
+<node TEXT="introduce variations to scenario" FOLDED="true" ID="ID_920267218" CREATED="1521245983114" MODIFIED="1521245995193">
+<node TEXT="insert step" FOLDED="true" ID="ID_1792368193" CREATED="1521245996750" MODIFIED="1521246000816">
+<node TEXT="add more data" ID="ID_1233910708" CREATED="1521246021902" MODIFIED="1521246025329"/>
+<node TEXT="use additional inputs" ID="ID_34505682" CREATED="1521246025690" MODIFIED="1521246038488"/>
+<node TEXT="visit new part of UI" ID="ID_672633794" CREATED="1521246039426" MODIFIED="1521246057623"/>
+</node>
+<node TEXT="remove step" FOLDED="true" ID="ID_1088422749" CREATED="1521246084041" MODIFIED="1521246093512">
+<node TEXT="remove 1-2 steps" ID="ID_1909901698" CREATED="1521246113494" MODIFIED="1521246118495"/>
+<node TEXT="remove steps 1 by 1 until bare minimum" ID="ID_1702716402" CREATED="1521246119045" MODIFIED="1521246131356"/>
+</node>
+<node TEXT="replace step" FOLDED="true" ID="ID_1280817935" CREATED="1521246106099" MODIFIED="1521246141071">
+<node TEXT="e.g., use keyboard shortcuts instead of buttons" ID="ID_1615844629" CREATED="1521246187994" MODIFIED="1521246203718"/>
+</node>
+<node TEXT="repeat step" ID="ID_784431163" CREATED="1521246141703" MODIFIED="1521246155088"/>
+<node TEXT="substitute data sources" ID="ID_893605844" CREATED="1521246238541" MODIFIED="1521246305251"/>
+<node TEXT="substitute environment" FOLDED="true" ID="ID_13295986" CREATED="1521246311118" MODIFIED="1521246317661">
+<node TEXT="hardware" ID="ID_482925896" CREATED="1521246325451" MODIFIED="1521246331872"/>
+<node TEXT="container" ID="ID_1006752761" CREATED="1521246338356" MODIFIED="1521246341005"/>
+<node TEXT="version" ID="ID_1707636911" CREATED="1521246341901" MODIFIED="1521246345107"/>
+<node TEXT="local settings" ID="ID_618952360" CREATED="1521246355594" MODIFIED="1521246360629"/>
+</node>
+</node>
+<node TEXT="use side trips" FOLDED="true" ID="ID_168646895" CREATED="1521246407079" MODIFIED="1521246412471">
+<node TEXT="add other features from Money Tour" ID="ID_1946424088" CREATED="1521246470944" MODIFIED="1521246498595"/>
+<node TEXT="find landmarks in scenario and randomise their order" ID="ID_219995564" CREATED="1521246484167" MODIFIED="1521246563445"/>
+<node TEXT="add hard questions" ID="ID_1959001473" CREATED="1521246564070" MODIFIED="1521246977100"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Intellectual T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="add other features from Back Alley Tour" ID="ID_155120507" CREATED="1521246470944" MODIFIED="1521247041163"/>
+<node TEXT="repeat every step twice" ID="ID_594134893" CREATED="1521246640291" MODIFIED="1521247034605"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      OCD T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="run scenario in All-Nighter Tour" ID="ID_334415373" CREATED="1521246672899" MODIFIED="1521246684830"/>
+<node TEXT="corrupt scenario&apos;s resources" ID="ID_1754269847" CREATED="1521246705966" MODIFIED="1521247026984"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Saboteur T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="check only UI" ID="ID_500197500" CREATED="1521246721673" MODIFIED="1521247058168"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supermodel T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="check nearest features instead of described" ID="ID_1933437197" CREATED="1521246784345" MODIFIED="1521247073422"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Supporting Actor T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="use cancel" ID="ID_1759797369" CREATED="1521246817780" MODIFIED="1521246953322"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rained-Out T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="use several scenarios based on overlapping of data" ID="ID_651165293" CREATED="1521246874079" MODIFIED="1521246945022"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tour-Cracher T.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </map>
