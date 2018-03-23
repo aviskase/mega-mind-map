@@ -1,7 +1,7 @@
 <map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Testing" FOLDED="false" ID="ID_189034887" CREATED="1516086896438" MODIFIED="1516116788288"><hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#000000ff,#ff0033ff,#009933ff,#3333ffff,#ff6600ff,#cc00ccff,#ffbf00ff,#00ff99ff,#0099ffff,#996600ff,#000000ff,#cc0066ff,#33ff00ff,#ff9999ff,#0000ccff,#cccc00ff,#0099ccff,#006600ff,#ff00ccff,#00cc00ff,#0066ccff,#00ffffff"/>
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#000000ff,#ff0033ff,#009933ff,#3333ffff,#ff6600ff,#cc00ccff,#ffbf00ff,#00ff99ff,#0099ffff,#996600ff,#000000ff,#cc0066ff,#33ff00ff,#ff9999ff,#0000ccff,#cccc00ff,#0099ccff,#006600ff,#ff00ccff,#00cc00ff,#0066ccff,#00ffffff" show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt" TEXT_SHORTENED="true">
@@ -1402,6 +1402,582 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="threads of sessions" ID="ID_332572686" CREATED="1521616085277" MODIFIED="1521616098013"/>
+</node>
+</node>
+<node TEXT="Heuristic Test Strategy Model" FOLDED="true" POSITION="right" ID="ID_448853604" CREATED="1521700864780" MODIFIED="1521700876737">
+<node TEXT="Project Environment" FOLDED="true" ID="ID_219173090" CREATED="1521700879199" MODIFIED="1521701388939">
+<node TEXT="is" ID="ID_266381797" CREATED="1521701100066" MODIFIED="1521703101265">
+<node TEXT="" ID="ID_116335067" CREATED="1521701159782" MODIFIED="1521701159784">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="resources" ID="ID_944027069" CREATED="1521701115024" MODIFIED="1521701119120"/>
+<node TEXT="constraints" ID="ID_1551456770" CREATED="1521701119583" MODIFIED="1521701124166"/>
+<node TEXT="" ID="ID_896029269" CREATED="1521701159777" MODIFIED="1521701159781">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="that enable / hobble testing" ID="ID_1664905450" CREATED="1521701159785" MODIFIED="1521701194736"/>
+</node>
+</node>
+<node TEXT="MIDTESTD" FOLDED="true" ID="ID_588122664" CREATED="1521705922810" MODIFIED="1521705938776">
+<node TEXT="Mission" FOLDED="true" ID="ID_759006811" CREATED="1521705950323" MODIFIED="1521705953958">
+<node TEXT="your purpose on this project" ID="ID_1172342373" CREATED="1521707541081" MODIFIED="1521707873464"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Do you know who your customers are? Whose opinions matter? Who benefits or suffers from the work you do?
+      </li>
+      <li>
+        Do you know what your customers expect of you on this project? Do you agree?
+      </li>
+      <li>
+        Maybe your customers have strong ideas about what tests you should create and run.
+      </li>
+      <li>
+        Maybe they have conflicting expectations. You may have to help identify and resolve those.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Information" FOLDED="true" ID="ID_1815279964" CREATED="1521705954456" MODIFIED="1521705956814">
+<node TEXT="what is needed for testing" ID="ID_935673028" CREATED="1521707566727" MODIFIED="1521707953770"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Whom can we consult with to learn about this project?
+      </li>
+      <li>
+        Are there any engineering documents available? User manuals? Web-based materials? Specs? User stories?
+      </li>
+      <li>
+        Does this product have a history? Old problems that were fixed or deferred? Pattern of customer complaints?
+      </li>
+      <li>
+        Is your information current? How are you apprised of new or changing information?
+      </li>
+      <li>
+        Are there any comparable products or projects from which we can glean important information?
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Developer Relations" FOLDED="true" ID="ID_855874796" CREATED="1521705957285" MODIFIED="1521705961270">
+<node TEXT="Hubris" ID="ID_806248087" CREATED="1521707585194" MODIFIED="1521707975887"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Does the development team seem overconfident about any aspect of the product?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Defensiveness" ID="ID_403642172" CREATED="1521707778356" MODIFIED="1521707992267"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Is there any part of the product the developers seem strangely opposed to having tested?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Rapport" ID="ID_1456393442" CREATED="1521707784516" MODIFIED="1521708013942"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Have you developed a friendly working relationship with the programmers?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Feedback loop" ID="ID_466130034" CREATED="1521707787685" MODIFIED="1521708027508"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can you communicate quickly, on demand, with the programmers?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Feedback" ID="ID_748251784" CREATED="1521707794957" MODIFIED="1521708038381"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What do the developers think of your test strategy?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Test Team" ID="ID_1263035379" CREATED="1521705961764" MODIFIED="1521708090171"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        Do you know who will be testing? Do you have enough people?
+      </li>
+      <li>
+        Are there people not on the &#8220;test team&#8221; that might be able to help? People who've tested similar products before and might have advice? Writers? Users? Programmers?
+      </li>
+      <li>
+        Are there particular test techniques that the team has special skill or motivation to perform?
+      </li>
+      <li>
+        Is any training needed? Is any available?
+      </li>
+      <li>
+        Who is co-located and who is elsewhere? Will time zones be a problem?
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Equipment &amp; Tools" FOLDED="true" ID="ID_393383537" CREATED="1521705971916" MODIFIED="1521705978855">
+<node TEXT="Hardware" ID="ID_1056236174" CREATED="1521707609360" MODIFIED="1521707614475"/>
+<node TEXT="Automation" ID="ID_1287069250" CREATED="1521707614771" MODIFIED="1521707625446"/>
+<node TEXT="Probes" ID="ID_957513385" CREATED="1521707626147" MODIFIED="1521708127852"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Are any tools needed to aid in the observation of the product under test?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Matrices &amp; Checklists" ID="ID_198360533" CREATED="1521707632344" MODIFIED="1521707640601"/>
+</node>
+<node TEXT="Schedule" FOLDED="true" ID="ID_579888530" CREATED="1521705979459" MODIFIED="1521705986621">
+<node TEXT="Test design" ID="ID_621048636" CREATED="1521707648997" MODIFIED="1521708144959"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How much time do you have? Are there tests better to create later than sooner?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Test execution" ID="ID_193958386" CREATED="1521707656469" MODIFIED="1521708156128"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When will tests be executed? Are some tests executed repeatedly, say, for regression purposes?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Development" ID="ID_1747335356" CREATED="1521707661892" MODIFIED="1521708167031"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When will builds be available for testing, features added, code frozen, etc.?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Documentation" ID="ID_1177243561" CREATED="1521707665189" MODIFIED="1521708176730"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When will the user documentation be available for review?
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Test Items" FOLDED="true" ID="ID_1293100914" CREATED="1521705987117" MODIFIED="1521705993653">
+<node TEXT="Scope" ID="ID_1586587770" CREATED="1521707677526" MODIFIED="1521707680275"/>
+<node TEXT="Availability" ID="ID_238586547" CREATED="1521707680797" MODIFIED="1521707684711"/>
+<node TEXT="Volatility" ID="ID_382823211" CREATED="1521707685410" MODIFIED="1521707689701"/>
+<node TEXT="New stuff" ID="ID_751210636" CREATED="1521707690280" MODIFIED="1521707694043"/>
+<node TEXT="testability" ID="ID_394091042" CREATED="1521707696981" MODIFIED="1521707699785"/>
+<node TEXT="Future releases" ID="ID_262617228" CREATED="1521707700579" MODIFIED="1521707705923"/>
+</node>
+<node TEXT="Deliverables" FOLDED="true" ID="ID_889951361" CREATED="1521705996898" MODIFIED="1521706001228">
+<node TEXT="Content" ID="ID_925344957" CREATED="1521707723380" MODIFIED="1521707730128"/>
+<node TEXT="Purpose" ID="ID_966086967" CREATED="1521707730970" MODIFIED="1521707734648"/>
+<node TEXT="Standards" ID="ID_987422717" CREATED="1521707735700" MODIFIED="1521707747954"/>
+<node TEXT="Media" ID="ID_123043467" CREATED="1521707748618" MODIFIED="1521707750162"/>
+</node>
+</node>
+</node>
+<node TEXT="+" ID="ID_780398509" CREATED="1521701389567" MODIFIED="1521701391028"/>
+<node TEXT="Product Elements" FOLDED="true" ID="ID_1421807779" CREATED="1521700895651" MODIFIED="1521701031989">
+<node TEXT="are" ID="ID_48222410" CREATED="1521701260235" MODIFIED="1521701270537">
+<node TEXT="things  to test" ID="ID_1315133956" CREATED="1521701272259" MODIFIED="1521701275841"/>
+</node>
+<node TEXT="SFDIPOT" FOLDED="true" ID="ID_532568452" CREATED="1521706055399" MODIFIED="1521706059288">
+<node TEXT="Structure" FOLDED="true" ID="ID_1061890973" CREATED="1521706066757" MODIFIED="1521706071135">
+<node TEXT="physical product" ID="ID_188187926" CREATED="1521706963841" MODIFIED="1521706970802"/>
+<node TEXT="by" ID="ID_1326622264" CREATED="1521707071453" MODIFIED="1521707086523">
+<node TEXT="Code" ID="ID_1068436918" CREATED="1521707089659" MODIFIED="1521707092334"/>
+<node TEXT="Hardware" ID="ID_1554881108" CREATED="1521707093369" MODIFIED="1521707096401"/>
+<node TEXT="Non-executable files" ID="ID_1264099869" CREATED="1521707098143" MODIFIED="1521707103420"/>
+<node TEXT="Collateral" ID="ID_184679021" CREATED="1521707104879" MODIFIED="1521707113251">
+<node TEXT="paper docs" ID="ID_1511783271" CREATED="1521707114273" MODIFIED="1521707126084"/>
+<node TEXT="packaging" ID="ID_1108164016" CREATED="1521707126423" MODIFIED="1521707134419"/>
+<node TEXT="etc." ID="ID_1768606067" CREATED="1521707135633" MODIFIED="1521707139425"/>
+</node>
+</node>
+</node>
+<node TEXT="Function" FOLDED="true" ID="ID_178419480" CREATED="1521706071904" MODIFIED="1521706073933">
+<node TEXT="what product does" ID="ID_1145464075" CREATED="1521706973191" MODIFIED="1521706980527"/>
+<node TEXT="by" ID="ID_1357818756" CREATED="1521707154883" MODIFIED="1521707156905">
+<node TEXT="Application" ID="ID_1604869176" CREATED="1521707157982" MODIFIED="1521707162864"/>
+<node TEXT="Calculation" ID="ID_6047629" CREATED="1521707163534" MODIFIED="1521707166676"/>
+<node TEXT="Time-related" ID="ID_35229656" CREATED="1521707167267" MODIFIED="1521707170000"/>
+<node TEXT="Transformations" ID="ID_839673517" CREATED="1521707170643" MODIFIED="1521707176731"/>
+<node TEXT="Startup / Shutdown" ID="ID_540742266" CREATED="1521707178157" MODIFIED="1521707187674"/>
+<node TEXT="Multimedia" ID="ID_1676928022" CREATED="1521707188157" MODIFIED="1521707192119"/>
+<node TEXT="Error handling" ID="ID_648324137" CREATED="1521707192598" MODIFIED="1521707198478"/>
+<node TEXT="Interactions" ID="ID_338338341" CREATED="1521707199511" MODIFIED="1521707204078">
+<node TEXT="between functions" ID="ID_729129893" CREATED="1521707261760" MODIFIED="1521707265502"/>
+</node>
+<node TEXT="Testability" ID="ID_15934567" CREATED="1521707205877" MODIFIED="1521707209890"/>
+</node>
+</node>
+<node TEXT="Data" FOLDED="true" ID="ID_1081531676" CREATED="1521706074374" MODIFIED="1521706076428">
+<node TEXT="what product processes" ID="ID_1620350980" CREATED="1521706987983" MODIFIED="1521707000510"/>
+<node TEXT="by" ID="ID_125766047" CREATED="1521707283603" MODIFIED="1521707285331">
+<node TEXT="Input" ID="ID_627991186" CREATED="1521707286280" MODIFIED="1521707289029"/>
+<node TEXT="Output" ID="ID_27662415" CREATED="1521707289657" MODIFIED="1521707292326"/>
+<node TEXT="Preset" ID="ID_1195119041" CREATED="1521707293619" MODIFIED="1521707299961"/>
+<node TEXT="Persistent" ID="ID_1515199111" CREATED="1521707300997" MODIFIED="1521707304383"/>
+<node TEXT="Sequences / Combinations" ID="ID_1557138113" CREATED="1521707308164" MODIFIED="1521707316213"/>
+<node TEXT="Cardinality" ID="ID_419043426" CREATED="1521707320101" MODIFIED="1521707326608"/>
+<node TEXT="Big / Little" ID="ID_591071564" CREATED="1521707327162" MODIFIED="1521707332284"/>
+<node TEXT="Noise" ID="ID_624940458" CREATED="1521707332881" MODIFIED="1521707335072"/>
+<node TEXT="Lifecycle" ID="ID_31426746" CREATED="1521707335686" MODIFIED="1521707340197"/>
+</node>
+</node>
+<node TEXT="Interfaces" FOLDED="true" ID="ID_1849218553" CREATED="1521706077384" MODIFIED="1521706082254">
+<node TEXT="how product can be accessed / expressed" ID="ID_582445273" CREATED="1521707007206" MODIFIED="1521707024815"/>
+<node TEXT="by" ID="ID_907889068" CREATED="1521707363459" MODIFIED="1521707365653">
+<node TEXT="UI" ID="ID_1318382659" CREATED="1521707370278" MODIFIED="1521707373332"/>
+<node TEXT="System interfaces" ID="ID_1352024107" CREATED="1521707374208" MODIFIED="1521707380533"/>
+<node TEXT="API / SDK" ID="ID_77761527" CREATED="1521707381141" MODIFIED="1521707384917"/>
+<node TEXT="Import / Export" ID="ID_1637156947" CREATED="1521707386519" MODIFIED="1521707391580"/>
+</node>
+</node>
+<node TEXT="Platform" FOLDED="true" ID="ID_124765075" CREATED="1521706083079" MODIFIED="1521706086009">
+<node TEXT="outside dependencies" ID="ID_898921856" CREATED="1521707027905" MODIFIED="1521707044738"/>
+<node TEXT="by" ID="ID_1522822195" CREATED="1521707396833" MODIFIED="1521707399810">
+<node TEXT="External hardware" ID="ID_1528539810" CREATED="1521707401594" MODIFIED="1521707406993"/>
+<node TEXT="External software" ID="ID_382919426" CREATED="1521707407892" MODIFIED="1521707415508"/>
+<node TEXT="Embedded components" ID="ID_1443109607" CREATED="1521707416321" MODIFIED="1521707429316"/>
+</node>
+</node>
+<node TEXT="Operations" FOLDED="true" ID="ID_1216656505" CREATED="1521706086746" MODIFIED="1521706091555">
+<node TEXT="how product is used" ID="ID_168919846" CREATED="1521707047006" MODIFIED="1521707054290"/>
+<node TEXT="by" ID="ID_741958604" CREATED="1521707436422" MODIFIED="1521707440878">
+<node TEXT="Users" ID="ID_1412356650" CREATED="1521707441654" MODIFIED="1521707446359"/>
+<node TEXT="Environment" ID="ID_1980945347" CREATED="1521707446917" MODIFIED="1521707449478"/>
+<node TEXT="Common use" ID="ID_97266634" CREATED="1521707450472" MODIFIED="1521707480304"/>
+<node TEXT="Disfavored use" ID="ID_271732888" CREATED="1521707456373" MODIFIED="1521707476603"/>
+<node TEXT="Extreme use" ID="ID_1497123308" CREATED="1521707464362" MODIFIED="1521707470422"/>
+</node>
+</node>
+<node TEXT="Time" FOLDED="true" ID="ID_156895246" CREATED="1521706091997" MODIFIED="1521706093899">
+<node TEXT="relationship between product and time" ID="ID_253685788" CREATED="1521707057336" MODIFIED="1521707067872"/>
+<node TEXT="by" ID="ID_332267330" CREATED="1521707484941" MODIFIED="1521707486504">
+<node TEXT="Input / Output" ID="ID_1430720204" CREATED="1521707487342" MODIFIED="1521707499702"/>
+<node TEXT="Fast / Slow" ID="ID_832524686" CREATED="1521707500183" MODIFIED="1521707505446"/>
+<node TEXT="Changing rates" ID="ID_364100421" CREATED="1521707507018" MODIFIED="1521707513185"/>
+<node TEXT="Concurrency" ID="ID_50691978" CREATED="1521707514066" MODIFIED="1521707518329"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="+" ID="ID_1842799982" CREATED="1521701392175" MODIFIED="1521701393316"/>
+<node TEXT="Quality Criteria" FOLDED="true" ID="ID_392304352" CREATED="1521700903166" MODIFIED="1521700912418">
+<node TEXT="are" ID="ID_1169957791" CREATED="1521701279848" MODIFIED="1521701285044">
+<node TEXT="" ID="ID_118946055" CREATED="1521701304481" MODIFIED="1521701304483">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="rules" ID="ID_340825151" CREATED="1521701286906" MODIFIED="1521701289690"/>
+<node TEXT="values" ID="ID_249368228" CREATED="1521701290309" MODIFIED="1521701291747"/>
+<node TEXT="sources" ID="ID_857278957" CREATED="1521701292330" MODIFIED="1521701294832"/>
+<node TEXT="" ID="ID_496628153" CREATED="1521701304477" MODIFIED="1521701304480">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="that allow to determine if there are problems" ID="ID_307551519" CREATED="1521701304484" MODIFIED="1521701325661"/>
+</node>
+</node>
+<node TEXT="CRUCSSCPID" FOLDED="true" ID="ID_184674276" CREATED="1521706106096" MODIFIED="1521706138569">
+<node TEXT="Capability" FOLDED="true" ID="ID_1048313909" CREATED="1521706139145" MODIFIED="1521706143455">
+<node TEXT="performs required functions" ID="ID_1196709387" CREATED="1521706291759" MODIFIED="1521706380625"/>
+</node>
+<node TEXT="Reliability" FOLDED="true" ID="ID_754259212" CREATED="1521706144192" MODIFIED="1521706152298">
+<node TEXT="works well and resists failure in required situations" ID="ID_720926741" CREATED="1521706307830" MODIFIED="1521706376057"/>
+<node TEXT="by" ID="ID_116400797" CREATED="1521706894145" MODIFIED="1521706900191">
+<node TEXT="Robustness" ID="ID_567428716" CREATED="1521706901398" MODIFIED="1521706907931"/>
+<node TEXT="Error handling" ID="ID_1220736184" CREATED="1521706908474" MODIFIED="1521706912516"/>
+<node TEXT="Data integrity" ID="ID_1640987661" CREATED="1521706913214" MODIFIED="1521706921537"/>
+<node TEXT="Safety" ID="ID_910828508" CREATED="1521706922143" MODIFIED="1521706924298"/>
+</node>
+</node>
+<node TEXT="Usability" FOLDED="true" ID="ID_1278234724" CREATED="1521706153074" MODIFIED="1521706156012">
+<node TEXT="is easy to use for real user" ID="ID_981917037" CREATED="1521706331981" MODIFIED="1521706388949"/>
+<node TEXT="by" ID="ID_951356747" CREATED="1521706867780" MODIFIED="1521706869464">
+<node TEXT="Learnability" ID="ID_94917057" CREATED="1521706870432" MODIFIED="1521706876442"/>
+<node TEXT="Operability" ID="ID_1898761923" CREATED="1521706877451" MODIFIED="1521706884139"/>
+<node TEXT="Accessibility" ID="ID_999731984" CREATED="1521706884872" MODIFIED="1521706890850"/>
+</node>
+</node>
+<node TEXT="Charisma" FOLDED="true" ID="ID_1751778782" CREATED="1521706159536" MODIFIED="1521706161863">
+<node TEXT="is appealing" ID="ID_1762190553" CREATED="1521706347383" MODIFIED="1521706362933"/>
+<node TEXT="by" ID="ID_399362391" CREATED="1521706801897" MODIFIED="1521706804343">
+<node TEXT="Aesthetics" ID="ID_475972758" CREATED="1521706810427" MODIFIED="1521706815386"/>
+<node TEXT="Uniqueness" ID="ID_459621438" CREATED="1521706816064" MODIFIED="1521706819811"/>
+<node TEXT="Necessities" ID="ID_267635426" CREATED="1521706820373" MODIFIED="1521706830293"/>
+<node TEXT="Usefulness" ID="ID_1032488791" CREATED="1521706831022" MODIFIED="1521706838747"/>
+<node TEXT="Entrancement" ID="ID_158087964" CREATED="1521706839410" MODIFIED="1521706844944"/>
+<node TEXT="Quality impression" ID="ID_809507751" CREATED="1521706846974" MODIFIED="1521706861651"/>
+</node>
+</node>
+<node TEXT="Security" FOLDED="true" ID="ID_826307898" CREATED="1521706163149" MODIFIED="1521706167226">
+<node TEXT="is protected against unauthorised use or intrusion" ID="ID_919281811" CREATED="1521706391783" MODIFIED="1521706417707"/>
+<node TEXT="by" ID="ID_679562957" CREATED="1521706755970" MODIFIED="1521706757703">
+<node TEXT="Authentication" ID="ID_1947399113" CREATED="1521706758873" MODIFIED="1521706764619"/>
+<node TEXT="Authorization" ID="ID_1760691210" CREATED="1521706766402" MODIFIED="1521706773439"/>
+<node TEXT="Privacy" ID="ID_467144255" CREATED="1521706776826" MODIFIED="1521706780558"/>
+<node TEXT="Security holes" ID="ID_1804095421" CREATED="1521706781566" MODIFIED="1521706792087"/>
+</node>
+</node>
+<node TEXT="Scalability" FOLDED="true" ID="ID_1499104236" CREATED="1521706167766" MODIFIED="1521706171555">
+<node TEXT="can scale up or down" ID="ID_562564894" CREATED="1521706423496" MODIFIED="1521706436069"/>
+</node>
+<node TEXT="Compatibility" FOLDED="true" ID="ID_957165064" CREATED="1521706172093" MODIFIED="1521706179431">
+<node TEXT="works well with external components &amp; configs" ID="ID_586659335" CREATED="1521706443248" MODIFIED="1521706466428"/>
+<node TEXT="by" ID="ID_1362355821" CREATED="1521706676983" MODIFIED="1521706681905">
+<node TEXT="Apps compatibility" ID="ID_603532318" CREATED="1521706682547" MODIFIED="1521706740967"/>
+<node TEXT="OS compatibility" ID="ID_1748001650" CREATED="1521706691968" MODIFIED="1521706697778"/>
+<node TEXT="Hardware compatibility" ID="ID_49705145" CREATED="1521706698334" MODIFIED="1521706711600"/>
+<node TEXT="Backward compatibility" ID="ID_1319150880" CREATED="1521706712127" MODIFIED="1521706726376"/>
+<node TEXT="Resource usage" ID="ID_833591907" CREATED="1521706727055" MODIFIED="1521774076674"/>
+</node>
+</node>
+<node TEXT="Performance" FOLDED="true" ID="ID_198537705" CREATED="1521706181433" MODIFIED="1521706185663">
+<node TEXT="is speedy &amp; responsive" ID="ID_1623860063" CREATED="1521706473134" MODIFIED="1521706483259"/>
+</node>
+<node TEXT="Installability" FOLDED="true" ID="ID_56634599" CREATED="1521706186445" MODIFIED="1521706191997">
+<node TEXT="can be easily installed onto target platform" ID="ID_929603889" CREATED="1521706486214" MODIFIED="1521706506228"/>
+<node TEXT="by" ID="ID_769442364" CREATED="1521706574491" MODIFIED="1521706621222">
+<node TEXT="System requirements" ID="ID_667180151" CREATED="1521706622751" MODIFIED="1521706630663"/>
+<node TEXT="Configuration" ID="ID_589209035" CREATED="1521706631242" MODIFIED="1521706636232"/>
+<node TEXT="Uninstallation" ID="ID_5806296" CREATED="1521706636976" MODIFIED="1521706643983"/>
+<node TEXT="Upgrades / patches" ID="ID_878301738" CREATED="1521706644527" MODIFIED="1521706651888"/>
+<node TEXT="Administration" ID="ID_1347807725" CREATED="1521706652421" MODIFIED="1521706656691"/>
+</node>
+</node>
+<node TEXT="Development" FOLDED="true" ID="ID_1986326813" CREATED="1521706192884" MODIFIED="1521706196749">
+<node TEXT="Supportability" ID="ID_1731909838" CREATED="1521706511489" MODIFIED="1521706523384"/>
+<node TEXT="Testability" ID="ID_1885828557" CREATED="1521706524301" MODIFIED="1521706527373"/>
+<node TEXT="Maintainability" ID="ID_983149304" CREATED="1521706528031" MODIFIED="1521706535212"/>
+<node TEXT="Portability" ID="ID_1436638927" CREATED="1521706538217" MODIFIED="1521706543768"/>
+<node TEXT="Localizability" ID="ID_1601129090" CREATED="1521706544443" MODIFIED="1521706552274"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x2208;" ID="ID_1629668745" CREATED="1521701395965" MODIFIED="1521703082929"/>
+<node TEXT="Test Techniques" FOLDED="true" ID="ID_1205687942" CREATED="1521700913220" MODIFIED="1521700923802">
+<node TEXT="are" ID="ID_396408567" CREATED="1521701331505" MODIFIED="1521701350561">
+<node TEXT="heuristics for test design" ID="ID_375626311" CREATED="1521701351816" MODIFIED="1521701361623"/>
+</node>
+<node TEXT="FDSFSCURA" FOLDED="true" ID="ID_861283342" CREATED="1521703165862" MODIFIED="1521703637609">
+<node TEXT="Functional T." FOLDED="true" ID="ID_661934196" CREATED="1521703198245" MODIFIED="1521703208428">
+<node TEXT="test what app can do" ID="ID_1353179392" CREATED="1521704991789" MODIFIED="1521705059387"/>
+</node>
+<node TEXT="Domain T." FOLDED="true" ID="ID_776034243" CREATED="1521703209395" MODIFIED="1521703211863">
+<node TEXT="explore and test processed data" ID="ID_1272656841" CREATED="1521705001068" MODIFIED="1521705111663"/>
+</node>
+<node TEXT="Stress T." FOLDED="true" ID="ID_1309449910" CREATED="1521703220795" MODIFIED="1521703237489">
+<node TEXT="overload app" ID="ID_1977166848" CREATED="1521705136751" MODIFIED="1521705155342">
+<node TEXT="complex / large data" ID="ID_693089459" CREATED="1521705162248" MODIFIED="1521705180314"/>
+<node TEXT="high loads" ID="ID_1510618854" CREATED="1521705180898" MODIFIED="1521705187409"/>
+<node TEXT="long test runs" ID="ID_669089987" CREATED="1521705187882" MODIFIED="1521705194163"/>
+<node TEXT="low resources" ID="ID_704284725" CREATED="1521705194905" MODIFIED="1521705200371"/>
+</node>
+</node>
+<node TEXT="Flow T." FOLDED="true" ID="ID_213885234" CREATED="1521703226201" MODIFIED="1521703235189">
+<node TEXT="do one thing after another" ID="ID_771903656" CREATED="1521705799732" MODIFIED="1521705853770">
+<node TEXT="go through state model" ID="ID_1131657898" CREATED="1521705855638" MODIFIED="1521705867560"/>
+<node TEXT="parallel threads" ID="ID_1268558725" CREATED="1521705869363" MODIFIED="1521705879415"/>
+<node TEXT="timing and sequencing" ID="ID_1634647786" CREATED="1521705880001" MODIFIED="1521705888044"/>
+<node TEXT="All-Nighter tour" ID="ID_1226569050" CREATED="1521705889234" MODIFIED="1521705900886"/>
+</node>
+</node>
+<node TEXT="Scenario T." FOLDED="true" ID="ID_628955527" CREATED="1521703238857" MODIFIED="1521703243179">
+<node TEXT="test with meaningful story" ID="ID_338068250" CREATED="1521705229188" MODIFIED="1521705262537"/>
+</node>
+<node TEXT="Claims T." FOLDED="true" ID="ID_1070029697" CREATED="1521703249809" MODIFIED="1521703252844">
+<node TEXT="challenge every claim" ID="ID_111295001" CREATED="1521705724211" MODIFIED="1521705752749">
+<node TEXT="explicit" ID="ID_1476367908" CREATED="1521705755209" MODIFIED="1521705758886"/>
+<node TEXT="implicit" ID="ID_1890603416" CREATED="1521705759612" MODIFIED="1521705762283"/>
+</node>
+</node>
+<node TEXT="User T." FOLDED="true" ID="ID_335763111" CREATED="1521703253491" MODIFIED="1521703255869">
+<node TEXT="identify categories / roles of users" ID="ID_833522748" CREATED="1521705613278" MODIFIED="1521705637450"/>
+<node TEXT="use" ID="ID_277632426" CREATED="1521705638098" MODIFIED="1521705665273">
+<node TEXT="real user data" ID="ID_1016636993" CREATED="1521705667666" MODIFIED="1521705674530"/>
+<node TEXT="real users" ID="ID_516894425" CREATED="1521705675009" MODIFIED="1521705677714"/>
+<node TEXT="user simulation" ID="ID_1116370084" CREATED="1521705689843" MODIFIED="1521705697087"/>
+</node>
+</node>
+<node TEXT="Risk T." FOLDED="true" ID="ID_1281355744" CREATED="1521703256464" MODIFIED="1521703258672">
+<node TEXT="look for probable problems" ID="ID_1147838890" CREATED="1521705501031" MODIFIED="1521705544586">
+<node TEXT="consult experts" ID="ID_1793258765" CREATED="1521705548680" MODIFIED="1521705553492"/>
+<node TEXT="consult specs" ID="ID_1861070788" CREATED="1521705554207" MODIFIED="1521705571916"/>
+<node TEXT="use past bug reports" ID="ID_521148852" CREATED="1521705573134" MODIFIED="1521705583144"/>
+<node TEXT="apply risk heuristics" ID="ID_573397211" CREATED="1521705583678" MODIFIED="1521705590481"/>
+</node>
+</node>
+<node TEXT="Automatic Checking" FOLDED="true" ID="ID_45767626" CREATED="1521703259162" MODIFIED="1521703267515">
+<node TEXT="automate performing lots of actions" ID="ID_1865638767" CREATED="1521705271381" MODIFIED="1521705371987"/>
+<node TEXT="automate test coverage" ID="ID_1969728625" CREATED="1521705302710" MODIFIED="1521705314416"/>
+<node TEXT="automate oracles" ID="ID_1791739942" CREATED="1521705314852" MODIFIED="1521705320031"/>
+<node TEXT="automatic change detectors" ID="ID_1620902029" CREATED="1521705320465" MODIFIED="1521705334719"/>
+<node TEXT="automatic test data generators" ID="ID_1711191552" CREATED="1521705335081" MODIFIED="1521705344548"/>
+<node TEXT="help human testing" ID="ID_1279637916" CREATED="1521705345082" MODIFIED="1521705352409"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x21d2;" ID="ID_809841834" CREATED="1521701442694" MODIFIED="1521701448879"/>
+<node TEXT="Perceived quality" FOLDED="true" ID="ID_754889060" CREATED="1521701040970" MODIFIED="1521703146910">
+<node TEXT="is result of testing" ID="ID_1240744386" CREATED="1521703115650" MODIFIED="1521703125079"/>
+<node TEXT="you can&apos;t know actual quality" ID="ID_312995421" CREATED="1521703125945" MODIFIED="1521703136768"/>
+</node>
+</node>
+<node TEXT="Consistency Oracles" FOLDED="true" POSITION="right" ID="ID_24834625" CREATED="1521774926769" MODIFIED="1521774931675">
+<node TEXT="how can we recognise a problem" ID="ID_1657636657" CREATED="1521776322037" MODIFIED="1521776338052"/>
+<node TEXT="FEW HICCUPPS" FOLDED="true" ID="ID_1548175381" CREATED="1521774932985" MODIFIED="1521774968996">
+<node TEXT="Familiarity" FOLDED="true" ID="ID_1999430741" CREATED="1521775087269" MODIFIED="1521775091250">
+<node TEXT="is NOT consistent with pattern of any familiar problems" ID="ID_1334405166" CREATED="1521775276797" MODIFIED="1521775954569"/>
+</node>
+<node TEXT="Explainability" FOLDED="true" ID="ID_1922714088" CREATED="1521775091757" MODIFIED="1521775104380">
+<node TEXT="is consistent with our ability to explain it" ID="ID_913145687" CREATED="1521775276797" MODIFIED="1521775941331"/>
+</node>
+<node TEXT="World" FOLDED="true" ID="ID_517648419" CREATED="1521775104919" MODIFIED="1521775107081">
+<node TEXT="is consistent with real world&apos;s" ID="ID_551342141" CREATED="1521775276797" MODIFIED="1521775827203">
+<node TEXT="" ID="ID_108321065" CREATED="1521775832620" MODIFIED="1521775832621">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="objects" ID="ID_233307509" CREATED="1521775688097" MODIFIED="1521775694295"/>
+<node TEXT="states" ID="ID_1031452365" CREATED="1521775694953" MODIFIED="1521775697484"/>
+<node TEXT="" ID="ID_533345867" CREATED="1521775832616" MODIFIED="1521775832620">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="that it represents" ID="ID_796501380" CREATED="1521775832622" MODIFIED="1521775844375"/>
+</node>
+</node>
+</node>
+<node TEXT="History" FOLDED="true" ID="ID_1101438576" CREATED="1521774970379" MODIFIED="1521774972671">
+<node TEXT="present version is consistent with past versions" ID="ID_867600353" CREATED="1521775127344" MODIFIED="1521775153844"/>
+</node>
+<node TEXT="Image" FOLDED="true" ID="ID_1462430051" CREATED="1521774973061" MODIFIED="1521774974334">
+<node TEXT="is consistent with" ID="ID_1595038614" CREATED="1521775230603" MODIFIED="1521775818713">
+<node TEXT="company image" ID="ID_984974237" CREATED="1521775255542" MODIFIED="1521775269236"/>
+<node TEXT="brand" ID="ID_771235945" CREATED="1521775269737" MODIFIED="1521775271072"/>
+<node TEXT="reputation" ID="ID_727417853" CREATED="1521775271657" MODIFIED="1521775273941"/>
+</node>
+</node>
+<node TEXT="Comparable Products" FOLDED="true" ID="ID_1479302483" CREATED="1521774974859" MODIFIED="1521774979670">
+<node TEXT="is consistent with other comparable in some way products" ID="ID_1264908217" CREATED="1521775276797" MODIFIED="1521775883482"/>
+</node>
+<node TEXT="Claims" FOLDED="true" ID="ID_839277728" CREATED="1521774980228" MODIFIED="1521774981832">
+<node TEXT="is consistent with" ID="ID_24688942" CREATED="1521775276797" MODIFIED="1521775781174">
+<node TEXT="internal docs" ID="ID_1537570892" CREATED="1521775470573" MODIFIED="1521775476323"/>
+<node TEXT="specs" ID="ID_1167381819" CREATED="1521775477042" MODIFIED="1521775479845"/>
+<node TEXT="ads" ID="ID_29489877" CREATED="1521775480277" MODIFIED="1521775481367"/>
+<node TEXT="stakeholder&apos;s words" ID="ID_798711464" CREATED="1521775623599" MODIFIED="1521775640367"/>
+</node>
+</node>
+<node TEXT="Users&apos; Desires" FOLDED="true" ID="ID_661205834" CREATED="1521774982282" MODIFIED="1521774994689">
+<node TEXT="is consistent with what we think user wants" ID="ID_374292034" CREATED="1521775276797" MODIFIED="1521775908508"/>
+</node>
+<node TEXT="Product" FOLDED="true" ID="ID_884750609" CREATED="1521774995024" MODIFIED="1521775001668">
+<node TEXT="is consistent with comparable parts within a product" ID="ID_604110821" CREATED="1521775276797" MODIFIED="1521775922642"/>
+</node>
+<node TEXT="Purpose" FOLDED="true" ID="ID_1203535175" CREATED="1521775002064" MODIFIED="1521775003682">
+<node TEXT="is consistent with its purposes" ID="ID_1603482107" CREATED="1521775276797" MODIFIED="1521775804902">
+<node TEXT="explicit" ID="ID_703032595" CREATED="1521775579149" MODIFIED="1521775581743"/>
+<node TEXT="implicit" ID="ID_1484728110" CREATED="1521775582117" MODIFIED="1521775583861"/>
+</node>
+</node>
+<node TEXT="Statutes &amp; Standarts" FOLDED="true" ID="ID_781402668" CREATED="1521775004072" MODIFIED="1521775018745">
+<node TEXT="is consistent with external" ID="ID_1181717881" CREATED="1521775276797" MODIFIED="1521775800459">
+<node TEXT="laws" ID="ID_1088769721" CREATED="1521775417613" MODIFIED="1521775554239"/>
+<node TEXT="stamdards" ID="ID_592346602" CREATED="1521775554642" MODIFIED="1521775560786"/>
+</node>
+</node>
 </node>
 </node>
 </node>
