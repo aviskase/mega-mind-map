@@ -2003,5 +2003,444 @@
 </node>
 </node>
 </node>
+<node TEXT="Testability Model" FOLDED="true" POSITION="right" ID="ID_1007945638" CREATED="1521776868597" MODIFIED="1521776876540">
+<node TEXT="Epistemic t-ty" FOLDED="true" ID="ID_1416575179" CREATED="1521776910137" MODIFIED="1521776964719" TEXT_SHORTENED="true"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      risk gap
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="how narrow is a gap between" ID="ID_1404075426" CREATED="1521777004611" MODIFIED="1521777028074">
+<node TEXT="" ID="ID_1082131592" CREATED="1521777052613" MODIFIED="1521777052617">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="what we know" ID="ID_1372148371" CREATED="1521777029110" MODIFIED="1521777032024"/>
+<node TEXT="what we need to know" ID="ID_172084105" CREATED="1521777032410" MODIFIED="1521777039371"/>
+<node TEXT="" ID="ID_1362708165" CREATED="1521777052611" MODIFIED="1521777052613">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="about SUT&apos;s status" ID="ID_1543167882" CREATED="1521777052619" MODIFIED="1521777070650"/>
+</node>
+</node>
+<node TEXT="guided by" ID="ID_773454766" CREATED="1521777541282" MODIFIED="1521777842949">
+<node TEXT="Prior Knowledge of Quality" ID="ID_541472182" CREATED="1521777546309" MODIFIED="1521777736094"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If we already know a lot about a product, we don't need to do as much testing.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Tolerance for Failure" ID="ID_622853095" CREATED="1521777560655" MODIFIED="1521777809344"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Less quality required (or more risk can be taken) -&gt; less testing is needed.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Project-Related t-ty" FOLDED="true" ID="ID_1839060562" CREATED="1521776946716" MODIFIED="1521776955309">
+<node TEXT="influenced by changing condition under which we test" ID="ID_1457382482" CREATED="1521777081534" MODIFIED="1521777107558"/>
+<node TEXT="guided by" ID="ID_171213040" CREATED="1521777829002" MODIFIED="1521777835548">
+<node TEXT="Change Control" ID="ID_855036083" CREATED="1521777885769" MODIFIED="1521777995644"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Frequent &amp; disruptive changes -&gt; invalidates testing and requires retesting
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Availability of" ID="ID_638541376" CREATED="1521778377377" MODIFIED="1521778382420">
+<node TEXT="Information" ID="ID_1082996349" CREATED="1521777894722" MODIFIED="1521778405555"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do we have all info we want or need?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Tools" ID="ID_1965370741" CREATED="1521777903459" MODIFIED="1521778398794"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do we have all tools we want or need?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Test Items" ID="ID_1156341201" CREATED="1521777908365" MODIFIED="1521778393218"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can we access and interact with all relevant versions of the product?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Sandboxing" ID="ID_1292136081" CREATED="1521777914220" MODIFIED="1521778158851"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Are we able to do any testing we want (even destructive) without disrupting users, team members, processes?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Environmental Controllability" ID="ID_1006834949" CREATED="1521777918729" MODIFIED="1521778185547"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can we control all relevant environmental variables?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Time" ID="ID_198480325" CREATED="1521777938333" MODIFIED="1521778204593"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do we have enough time?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Value-Related t-ty" FOLDED="true" ID="ID_375758910" CREATED="1521776966156" MODIFIED="1521776972001">
+<node TEXT="influenced by changing" ID="ID_702552490" CREATED="1521777110725" MODIFIED="1521777138680">
+<node TEXT="quality standard" ID="ID_205663606" CREATED="1521777139333" MODIFIED="1521777163230"/>
+<node TEXT="our knowledge of it" ID="ID_1626469583" CREATED="1521777144365" MODIFIED="1521777159743"/>
+</node>
+<node TEXT="guided by" ID="ID_1420513444" CREATED="1521777829002" MODIFIED="1521777835548">
+<node TEXT="Oracle" ID="ID_1707855950" CREATED="1521778263848" MODIFIED="1521778268485">
+<node TEXT="Availability" ID="ID_1113375795" CREATED="1521778269566" MODIFIED="1521778455081"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do we have oracles? (specs, tools, people)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Authority" ID="ID_140469858" CREATED="1521778285226" MODIFIED="1521778524998"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Are our oracles considered important?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Reliability" ID="ID_1047432835" CREATED="1521778274293" MODIFIED="1521778503523"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can our oracles be trusted over time and in many conditions?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Precision" ID="ID_324757268" CREATED="1521778279955" MODIFIED="1521778584692"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do oracles facilitate identification of specific problems?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Inexpensiveness" ID="ID_1283765629" CREATED="1521778292531" MODIFIED="1521778631549"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do our oracles require little cost or effort to acquire or operate?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="User" ID="ID_1055973791" CREATED="1521778300905" MODIFIED="1521778303108">
+<node TEXT="Stability &amp; Unity" ID="ID_1216136582" CREATED="1521778304454" MODIFIED="1521778669542"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Less users changes &amp;&amp; Less variety among users -&gt; Easier to test
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Familiarity" ID="ID_1759520247" CREATED="1521778309513" MODIFIED="1521778696157"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do we understand and identify with users?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Availability" ID="ID_992693265" CREATED="1521778316501" MODIFIED="1521778709882"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can we talk or observe users?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="User Data Availability" ID="ID_1783784187" CREATED="1521778326128" MODIFIED="1521778727214"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can we access natural user data?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="User Environment" ID="ID_397069491" CREATED="1521778335110" MODIFIED="1521778341090">
+<node TEXT="Availability" ID="ID_1114039043" CREATED="1521778341964" MODIFIED="1521778754303"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can we access natural usage environments?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Stability &amp; Unity" ID="ID_501235272" CREATED="1521778345908" MODIFIED="1521778788880"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Less user environment and platform changes -&gt; easier to test
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Subjective t-ty" FOLDED="true" ID="ID_388198151" CREATED="1521776972448" MODIFIED="1521776991066">
+<node TEXT="influenced by changing" ID="ID_1460074013" CREATED="1521777167214" MODIFIED="1521777176942">
+<node TEXT="tester" ID="ID_1115788653" CREATED="1521777179140" MODIFIED="1521777183231"/>
+<node TEXT="test process" ID="ID_1909797094" CREATED="1521777183582" MODIFIED="1521777186178"/>
+</node>
+<node TEXT="guided by" ID="ID_905283027" CREATED="1521777829002" MODIFIED="1521777835548">
+<node TEXT="Knowledge of" ID="ID_485060847" CREATED="1521778803195" MODIFIED="1521778820670">
+<node TEXT="Product" ID="ID_1960751935" CREATED="1521778821380" MODIFIED="1521778823213"/>
+<node TEXT="Technical stuff" ID="ID_1601027524" CREATED="1521778823790" MODIFIED="1521778831170"/>
+<node TEXT="Domain" ID="ID_1096915621" CREATED="1521778831604" MODIFIED="1521778833290"/>
+</node>
+<node TEXT="Testing Skill" ID="ID_1469352399" CREATED="1521778834734" MODIFIED="1521778840594"/>
+<node TEXT="Engagement" ID="ID_1046410761" CREATED="1521778841026" MODIFIED="1521778902461"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Are we close to dev process, can we communicate and collaborate with team?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Helpers" ID="ID_744309461" CREATED="1521778844221" MODIFIED="1521778923660"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Do non-testers help us?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Test Strategy" ID="ID_1034131933" CREATED="1521778847458" MODIFIED="1521778854263"/>
+</node>
+</node>
+<node TEXT="Intrinsic t-ty" FOLDED="true" ID="ID_1758909751" CREATED="1521776978597" MODIFIED="1521776988449">
+<node TEXT="influenced by changing product itself" ID="ID_194950624" CREATED="1521777192774" MODIFIED="1521777207577"/>
+<node TEXT="guided by" ID="ID_1913900116" CREATED="1521777829002" MODIFIED="1521777835548">
+<node TEXT="Observability" ID="ID_1449053119" CREATED="1521778934378" MODIFIED="1521778946407"/>
+<node TEXT="Controllability" ID="ID_890956290" CREATED="1521778946876" MODIFIED="1521778950730"/>
+<node TEXT="Algorithmic Simplicity" ID="ID_1106688165" CREATED="1521778951524" MODIFIED="1521778961118"/>
+<node TEXT="Unbugginess" ID="ID_826675165" CREATED="1521778961928" MODIFIED="1521778968677"/>
+<node TEXT="Smallness" ID="ID_1749597147" CREATED="1521778969244" MODIFIED="1521778971869"/>
+<node TEXT="Decomposability" ID="ID_979120707" CREATED="1521778972614" MODIFIED="1521778980521"/>
+<node TEXT="Similarity" ID="ID_218835921" CREATED="1521778981007" MODIFIED="1521779006525" TEXT_SHORTENED="true"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      to known and trusted tech
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x21d2;" ID="ID_1474017736" CREATED="1521777287235" MODIFIED="1521777293341"/>
+<node TEXT="Practical t-ty" FOLDED="true" ID="ID_540133373" CREATED="1521776930541" MODIFIED="1521776960178">
+<node TEXT="how easy it&apos;s to test a product by" ID="ID_478662581" CREATED="1521777219939" MODIFIED="1521777239431">
+<node TEXT="" ID="ID_1190086756" CREATED="1521777258613" MODIFIED="1521777258614">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="particular tester" ID="ID_420187155" CREATED="1521777240954" MODIFIED="1521777247259"/>
+<node TEXT="test process" ID="ID_1763873230" CREATED="1521777247914" MODIFIED="1521777252245"/>
+<node TEXT="" ID="ID_1937368220" CREATED="1521777258611" MODIFIED="1521777258613">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="in a given context" ID="ID_563715094" CREATED="1521777258615" MODIFIED="1521777265294"/>
+</node>
+</node>
+<node TEXT="guided by" ID="ID_1601872786" CREATED="1521777829002" MODIFIED="1521777835548"/>
+</node>
+</node>
 </node>
 </map>
